@@ -1,3 +1,21 @@
+# UP 2015 winner lists have moved
+
+This collection is maintained in
+[in-rolls/local_elections_up](https://github.com/in-rolls/local_elections_up).
+That state repository owns the original source files, collection and parsing
+tools, and standardized Uttar Pradesh election datasets.
+
+- [Original 2015 CSVs, provenance, and citation](https://github.com/in-rolls/local_elections_up/tree/main/data/raw/2015/winner_lists)
+- [Derived Parquet tables](https://github.com/in-rolls/local_elections_up/tree/main/data/interim/winner_lists_2015)
+- [Converter](https://github.com/in-rolls/local_elections_up/blob/main/scripts/convert_winner_lists_2015.py)
+
+All 226 original CSVs and 140,709 records are preserved in the consolidated
+collection. Its authors are Suriyan Laohaprapanon and Gaurav Sood. This repository
+retains the original collection history for provenance. Submit new work and
+issues to `local_elections_up`.
+
+## Original collection notes
+
 ### 2015 UP Panchayat General Election Results
 
 We scraped 2015 UP Panchayat General Election Results posted at [UP State Election Commission](http://sec.up.nic.in/ElecLive/WinnerList.aspx).
@@ -10,7 +28,7 @@ For area panchayat chief and district panchayat president, there is only have on
 
 ### Script
 
-[Script](scripts/https://github.com/in-rolls/up-2015-panchayat-ge-results/blob/master/scripts/WinnerList.ipynb)
+[Original collection notebook](https://github.com/in-rolls/local_elections_up_2015/blob/789462339f5661aa31dd4c05c56bce5f46b5bb94/scripts/WinnerList.ipynb)
 
 ### Data
 
